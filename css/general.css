@@ -1,20 +1,28 @@
 @charset "UTF-8";
 /* CSS document */
 
-.beetroot-img{
+.beetroot-img {
 	max-width: 5%;
 }
 
-.img-flex{
+.img-flex {
 	display: block;
 	width: 100%;
 }
 
-dt{
-	float: left;
+/* Overflow hidden is a clearfix It reminds the <dl> to wrap around it's floated children */
+
+dl{
+	overflow: hidden;
 }
 
-dd{
+dt {
+	float: left;
+	clear: left;
+	width: 8em;
+}
+
+dd {
 	float: left;
 	margin: 0;
 	padding: 0;
