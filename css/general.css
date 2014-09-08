@@ -2,12 +2,13 @@
 /* CSS document */
 
 .beetroot-img {
-	max-width: 5%;
+	width: 10em;
 }
 
 .img-flex {
 	display: block;
 	width: 100%;
+	height: 100%;
 }
 
 /* Overflow hidden is a clearfix It reminds the <dl> to wrap around it's floated children */
@@ -28,6 +29,6 @@ dd {
 	padding: 0;
 }
 
-.h1{
+h1{
 	color: red;
 }
