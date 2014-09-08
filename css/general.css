@@ -84,6 +84,15 @@ ol{
 	padding: 0 0.8;
 }
 
+figure{
+	margin: 0 0 1.5rem;
+	padding: 0;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+
+
+
 /* Overflow hidden is a clearfix It reminds the <dl> to wrap around it's floated children */
 
 dl{
