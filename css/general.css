@@ -66,6 +66,22 @@ h2{
 	font-size: 1.2rem;
 }
 
+p{
+	margin: 0 0 1.5rem;
+	padding: 0;
+}
+
+ul, ol{
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+}
+
+ol{
+	padding-left: 1.5rem;
+}
+
+
+
 /* Overflow hidden is a clearfix It reminds the <dl> to wrap around it's floated children */
 
 dl{
