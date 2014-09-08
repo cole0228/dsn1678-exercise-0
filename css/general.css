@@ -29,6 +29,43 @@ main{
 	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
+img{
+	display: block;
+	width: 100%;
+}
+
+a,
+a:link,
+a:visited{
+	border-bottom: 1px solid rgba(165, 36, 67, 0.4);
+	color: #a52443;
+	text-decoration: none; /*removes and pre-set settings */
+}
+
+a:hover,
+a:focus,
+a:active{
+	background-colorL #a52443;
+	color: #fff;
+}
+
+header{
+	padding: 0.9;
+}
+
+h1{
+	margin: 0;
+	color: #a52443;
+	font-size: 1.125rem;
+	line-height: 1.3333;
+}
+
+h2{
+	margin: 0 0 1.5rem;
+	color: #a52443;
+	font-size: 1.2rem;
+}
+
 /* Overflow hidden is a clearfix It reminds the <dl> to wrap around it's floated children */
 
 dl{
