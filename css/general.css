@@ -17,6 +17,18 @@ html{
 
 /* the above is for various web browsers */
 
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+main{
+	margin: 0 auto;
+	width: 320px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
 /* Overflow hidden is a clearfix It reminds the <dl> to wrap around it's floated children */
 
 dl{
