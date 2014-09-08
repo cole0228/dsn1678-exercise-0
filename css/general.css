@@ -91,6 +91,15 @@ figure{
 	border-top: 1px solid #ddd;
 }
 
+figcaption{
+	padding: 0.8rem;
+	background-color: #fcfcfc;
+	border-top: 1px solid #ddd;
+	color: #666;
+	font-size: 0.8rem;
+	line-height: 1.9;
+}
+
 
 
 /* Overflow hidden is a clearfix It reminds the <dl> to wrap around it's floated children */
