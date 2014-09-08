@@ -180,5 +180,21 @@ tags > li{
 	color: #a52443;
 }
 
+.tags a:hover,
+.tags a:focus,
+.tags a:active{
+	background-color: #a52443;
+	color: #fff;
+}
 
+footer{
+	padding: 0 0.8rem 0.8rem;
+	color: #666;
+	font-size: 0.8rem;
+	line-height: 1.9;
+}
+
+footer p{
+	margin: 0;
+}
 
